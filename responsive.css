@@ -1,0 +1,222 @@
+/* For Mobile */
+@media screen and (min-width: 320px) and (max-width: 580px) {
+    .navbar {
+        padding: 20px 20px;
+    }
+
+    .logo img {
+        height: 20px;
+    }
+
+    .navbar-menu ul {
+        gap: 10px;
+    }
+
+    .navbar-menu a {
+        font-size: 12px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-button {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .about-me {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .about-me-text h1 {
+        font-size: 36px;
+    }
+
+    .about-me-text p {
+        font-size: 14px;
+    }
+
+    .about-me-img{
+        display: none;
+    }
+
+
+    .works {
+        padding: 20px;
+    }
+
+    .my-work-title h1 {
+        font-size: 36px;
+    }
+
+    .categories {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .category-btn {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .category-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-img {
+        width: 80%;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .contact-text h1 {
+        font-size: 36px;
+    }
+
+    .from-user-data {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .from-content {
+        width: 100%;
+    }
+
+    .send-btn {
+        background-color: #00ADB5;
+        color: #EEEEEE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .footer-navbar {
+        flex-direction: column;
+    }
+
+    .footer-navbar-iteams {
+        padding: 10px;
+    }
+
+    .terms-condition p {
+        padding: 10px 20px;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 581px) and (max-width: 768px) {
+    .navbar {
+        padding: 20px 40px;
+    }
+
+    .logo img {
+        height: 25px;
+    }
+
+    .navbar-menu ul {
+        gap: 20px;
+    }
+
+    .navbar-menu a {
+        font-size: 16px;
+    }
+
+    .hero {
+        padding: 40px;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-button {
+        gap: 15px;
+    }
+
+    .hero-img {
+        width: 300px;
+    }
+
+    .about-me {
+        padding: 40px;
+    }
+
+    .about-me-text h1 {
+        font-size: 48px;
+    }
+
+    .about-me-text p {
+        font-size: 16px;
+    }
+
+    .works {
+        padding: 40px;
+    }
+
+    .my-work-title h1 {
+        font-size: 48px;
+    }
+
+    .categories {
+        gap: 15px;
+    }
+
+    .category-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .category-card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-img {
+        width: 45%;
+    }
+
+    .contact {
+        gap: 40px;
+        padding: 40px;
+    }
+
+    .contact-text h1 {
+        font-size: 48px;
+    }
+
+    .from-user-data {
+        gap: 20px;
+    }
+
+    .footer-navbar {
+        flex-direction: row;
+    }
+
+    .footer-navbar-iteams {
+        padding: 20px;
+    }
+
+    .terms-condition p {
+        padding: 20px 40px;
+    }
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CREATIVE UI DESIGNER</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -41,14 +42,14 @@
             <h1>About <span>Me</span></h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... <span>Read More</span></p>
         </div>
-        <div>
+        <div class="about-me-img">
             <img src="/statics/about-me.png" alt="about-me">
         </div>
     </section>
     <section id="work-section" class="my-work">
-        <div class="work-bg-img">
+        <!-- <div class="work-bg-img">
             <img src="/statics/projects-page.png" alt="projects-page">
-        </div>
+        </div> -->
         <div class="works">
             <div class="my-work-title">
                 <h1>My recent <span>works</span></h1>
@@ -72,15 +73,17 @@
             </div>
         </div>
     </section>
-    <section id="contact" class="contact">
+    <section id="contact-section" class="contact">
         <div class="contact-text">
             <h1>Got a project in <br><span>mind?</span></h1>
-            <img src="/statics/get-in-touch.png" alt class="get-in-touch-img">
+            <div class="end-img">
+                <img src="/statics/get-in-touch.png" alt class="get-in-touch-img">
+            </div>
         </div>
         <div class="contact-form">
             <div class="from-user-data">
                 <div class="from-content">
-                    <label for="name">Your Name</label>
+                    <label for="name">Your Name :</label>
                     <input type="text" id="name" placeholder="Name">
                 </div>
                 <div class="from-content">
@@ -88,12 +91,42 @@
                     <input type="email" id="email" placeholder="Email">
                 </div>
             </div>
-            <div class="from-content">
+            <div class="from-content form-content-textarea">
                 <label for="message">Your Message</label>
                 <textarea type="message" id="message" placeholder="Message"></textarea>
             </div>
-            <button>Send Message</button>
+            <button class="send-btn">
+                <span>Send Message</span>
+                <img src="/statics/button-icons/send.svg" alt="send">
+            </button>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer-navbar">
+            <div class="footer-navbar-iteams">
+                <img src="/statics/home.svg" alt="home">
+                <p><a href="#home-section">Home</a></p>
+            </div>
+            <div class="footer-navbar-iteams">
+                <img src="/statics/user.svg" alt="user">
+                <p><a href="#about-section">About Me</a></p>
+            </div>
+            <div class="footer-navbar-iteams">
+                <img src="/statics/contact.svg" alt="contact">
+                <p><a href="#contact-section">Contact</a></p>
+            </div>
+        </div>
+        <div class="social">
+            <div class="social-iteams">
+                <img src="/statics/Social/fb.svg" alt="fb">
+                <img src="/statics/Social/insta.svg" alt="insta">
+                <img src="/statics/Social/twitter.svg" alt="twitter">
+                <img src="/statics/Social/youtube.svg" alt="youtube">
+            </div>
+        </div>
+        <div class="terms-condition">
+            <p>Terms of Service - Privacy Policy</p>
+        </div>
+    </footer>
 </body>
 </html>
