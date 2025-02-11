@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #222831;
+    font-family: Poppins !important;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    border-bottom: 1px solid rgba(238, 238, 238, 10%);
+}
+
+.logo img {
+    height: 30px;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+.navbar-menu a {
+    display: flex;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-menu a:hover {
+    color: #00ADB5;
+}
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+    color: #EEEEEE;
+    font-size: 96px;
+}
+
+.hero-text h1 span{
+    color: #00ADB5;
+}
+
+.hero-button {
+    display: flex;
+    gap: 20px;
+}
+
+/* .hero-button button{
+    color: #EEEEEE;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+} */
+
+button{
+    color: #EEEEEE;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #00ADB5;
+}
+
+.btn-hire {
+    background-color: #00ADB5;
+    border: 1px solid #00ADB5;
+}
+
+.btn-hire:hover {
+    background-color: rgba(57, 70, 50, 50%);
+}
+
+.btn-download {
+    background-color: rgba(57, 70, 50, 50%);
+    border: 1px solid #393E46;
+}
+
+.btn-download:hover {
+    border: 1px solid #00ADB5;
+}
+
+.hero-img {
+    width: 400px;
+}
+
+/* About Me */
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.about-me-text {
+    color: #EEEEEE;
+    font-size: 18px;
+}
+
+.about-me-text h1 {
+    color: #EEEEEE;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.about-me-text h1 span{
+    color: #00ADB5;
+}
+
+.about-me-text span{
+    font-weight: 700;
+}
+
+/* My Works */
+
+/* .works {
+    display: grid;
+} */
+.my-work {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.work-bg-img {
+    max-width: 100px;
+}
+
+.my-work-title h1 {
+    color: #EEEEEE;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.my-work-title h1 span{
+    color: #00ADB5;
+}
+
+.category-btn.active {
+    background-color: #00ADB5;
+}
+
+.category-btn {
+    background-color: rgba(57, 70, 50, 50%);
+    border: 1px solid #393E46;
+}
+
+.category-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 70, 50, 50%);
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.iteam-card {
+    width: 150px;
+}
+
+/* Get In Touch */
+
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 100px;
+    padding: 80px;
+}
+
+.contact-text h1{
+    color: #EEEEEE;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.contact-text h1 span {
+    color: #00ADB5;
+}
+
+.contact button {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+    border-radius: 25px;
+    padding: 10px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #00ADB5;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(238, 238, 238, 50%)
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
